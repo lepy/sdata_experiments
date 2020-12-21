@@ -13,8 +13,10 @@
    :target: https://pypi.python.org/pypi/sdata_experiments/
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :caption: Contents:
+
+   tensiontest/tensiontest
 
    _dynamic/sdata_experiments
 
