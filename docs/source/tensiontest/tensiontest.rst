@@ -30,3 +30,4 @@ References
 * TechReport (DIN6892-1) ISO 6892-1:2009, Metallische Werkstoffe – Zugversuch – Teil 1: Prüfverfahren bei Raumtemperatur 2009
 * TechReport (DIN6892-2) ISO 6892-2:2009, Metallische Werkstoffe – Zugversuch – Teil 2: Prüfverfahren bei erhöhter Temperatur 2009
 * ISO 6892-1:2016(E)
+* VDA 238-100 2010:12
