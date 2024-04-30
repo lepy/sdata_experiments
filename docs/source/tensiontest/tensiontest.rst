@@ -31,3 +31,33 @@ References
 * TechReport (DIN6892-2) ISO 6892-2:2009, Metallische Werkstoffe – Zugversuch – Teil 2: Prüfverfahren bei erhöhter Temperatur 2009
 * ISO 6892-1:2016(E)
 * VDA 238-100 2010:12
+* Weißbach, W. Werkstoffkunde und Werkstoffprüfung: Strukturen, Eigenschaften, Prüfung Vieweg, 2007
+
+Brucheinschnürung
+
+.. math::
+
+    Z = \frac{S_o-S_u}{So}
+
+Bruchdehnung
+
+.. math::
+
+    A = \frac{L_u-L_o}{L_o}
+
+Zugfestigkeit
+
+.. math::
+
+    R_m = \frac{F_m}{S_o}
+
+
+Einschnürung [Semiatin1985, Gerhardt2015]
+
+a: Probenbreite in der Einschnürung
+R: Krümmungsradius in der Einschnürung
+
+
+.. math::
+
+    k_{f}=\frac{F}{A_{\min }} \cdot \frac{1}{\sqrt{1+\frac{R}{a}} \cdot \ln \left(1+\frac{a}{2 R}+\sqrt{\frac{a}{R} \cdot\left(1+\frac{a}{4 R}\right)}-1\right)}

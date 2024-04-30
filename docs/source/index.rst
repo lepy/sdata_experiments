@@ -12,6 +12,37 @@
 .. image:: https://img.shields.io/pypi/v/sdata_experiments.svg?style=flat-square
    :target: https://pypi.python.org/pypi/sdata_experiments/
 
+
+Welche Daten solltenfür nachvollziehbare und sichere Prüfergebnisseabgelegt werden?
+
+Wann:
+
+* Datum
+* Uhrzeit (mit Zeitzone)
+
+Wo:
+
+* Standort
+* Labor/Einrichtung
+
+Wer:
+
+* Tester
+
+Was:
+
+* Prüfmaschine
+* Prüfnorm (ISO, DIN, ...)
+* Temperatur
+
+Warum:
+
+* Ziel der Prüfung
+
+Verantwörtlichkeit:
+
+* Ansprechpartner
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
