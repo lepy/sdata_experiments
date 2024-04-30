@@ -35,8 +35,8 @@ class TensionTest(Test):
         ['actual_specimen_diameter', np.nan, 'float', 'mm', 'Die Durchmesser der Probe.', '', False],
         ['actual_specimen_length', np.nan, 'float', 'mm', 'Die Gesamtlänge der Probe.', '', False],
         ['actual_specimen_width', np.nan, 'float', 'mm', 'Die Breite der Probe.', '', False],
-        ['actual_specimen_temperature', np.nan, 'float', 'mm', 'Die Ausgangstemperatur der Probe.', '', False],
-        ['actual_specimen_huminity', np.nan, 'float', 'mm', 'Die Feuchte der Probe.', '', False],
+        ['actual_specimen_temperature', np.nan, 'float', '°C', 'Die Ausgangstemperatur der Probe.', '', False],
+        ['actual_specimen_humidity', np.nan, 'float', '%', 'Die Feuchte der Probe.', '', False],
         ]
 
     def __init__(self, name, **kwargs):
@@ -78,8 +78,8 @@ class TensionTestSeries(TestSeries):
         ['test_date', '', 'str', '-', 'Das Datum, an dem der Test durchgeführt wurde.', '', False],
         ['test_location', '', 'str', '-', 'Der Ort, an dem der Test durchgeführt wurde.', '', False],
         ['test_direction', np.nan, 'float', '-', 'Die Prüfrichtung der Probe.', '', False],
-        ['test_temperature', '', 'str', '-', 'Raumtemperatur, bei der Test durchgeführt wurde.', '', False],
-        ['test_humitity', '', 'str', '-', 'Luftfeuchte im Raum, bei der Test durchgeführt wurde.', '', False],
+        ['test_temperature', '', 'float', '°C', 'Raumtemperatur, bei der Test durchgeführt wurde.', '', False],
+        ['test_humidity', '', 'float', '%', 'Luftfeuchte im Raum, bei der Test durchgeführt wurde.', '', False],
         ]
 
     def __init__(self, name, **kwargs):
